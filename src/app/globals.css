@@ -40,3 +40,212 @@ a {
     color-scheme: dark;
   }
 }
+
+/* ---------------------- */
+
+.myhomepage{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(247, 248, 248);
+  /* border: 2px solid blue; */
+  height: 90vh;
+  width: 99vw;
+  font-size: 5vw;
+  font-weight: bold;
+  margin-right: 2vw;
+  background-color: rgba(27, 28, 28, 0.484);
+}
+.myhomepage pre{
+  min-width: 300px;
+  min-height: 150px;
+  /* border: 2px solid blueviolet; */
+}
+.myImage {
+  height: 30vw;
+  width: 30vw;
+  min-width: 250px;
+  min-height: 250px;
+  display: flex;
+  
+  justify-content: center;
+  /* border: 2px solid; */
+}
+.myImage img{
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid rgb(34, 208, 153);
+}
+.nav{
+  padding: 1vh;
+  height: 10vh;
+  min-width: 400px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* position: absolute; */
+  /* right: 5vw; */
+  list-style: none;
+  font-size: 3vw;
+  font-weight: bold;
+  /* border: 2px solid red;   */
+  
+  background-color: rgba(27, 28, 28, 0.484);
+}
+
+.nav li{
+  color: aqua;
+  width: 7vw;
+  height: 5vh;
+  cursor: pointer;
+ /* border: 2px solid white;
+  border-radius: 10%;   */
+}
+
+
+.project{
+  height: 100vh;
+  width: 100vw;
+  border: 2px solid;
+  display: flex;
+ /* flex-wrap: wrap;*/
+  align-items: center;
+  justify-content: center;
+}
+
+.project .project1{
+  height: 100%;
+ /* min-width: 250px;*/
+  width: 50%;
+  /* border: 2px solid rgb(202, 13, 13); */
+  padding: 3%;
+}
+.project .project1 p{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2vw;
+  padding: 3%;
+}
+.project .project1 p button{
+  width: 20%;
+  /* padding: 1%; */
+}
+
+.project .p1_description{
+  height: 100%;
+ /* min-width: 400px;*/
+  width: 50%;
+  flex-direction: column;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* padding: 1%; */
+  font-size: x-large;
+  border: 2px solid;
+  padding: 3%;
+}
+.project .p1_description div{
+  margin: 2% 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  border: 2px solid ;
+}
+
+.project .gallery{
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 5px solid green; */
+}
+
+.h_mob{
+  font-size: 5vh;
+}
+
+.mob_nav{
+  padding: 2vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  font-weight: bold;
+  color: aqua;
+  
+  background-color: rgba(27, 28, 28, 0.484);
+}
+
+li{
+  list-style: none;
+
+}
+
+.skill{
+  height: 100%;
+  width: 100%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .skill button{
+  width: 30%;
+  height: 8%;
+} */
+
+.project3{
+  height: 100vw;
+  width: 100vh;
+  padding: 3%;
+}
+.project3 iframe{
+  height: 60%;
+  width: 80%;
+}
+
+.mob_project1{
+  height: 200vh;
+  width: 100vw;
+ /* background-color: red;*/
+}
+.mob_project1 .game_dis{
+  padding: 5vw;
+}
+.mob_iot_project{
+  border: 2px solid red;
+  margin-top: 10vh;
+  padding: 3%;
+  height: 100vh;
+  width: 100vw;
+}
+.mob_iot_project p{
+  font-size: x-large;
+  margin: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+}
+.card{
+  margin: 5vh;
+  padding: 3vh;
+  height: 20vh;
+  width: 50vw;
+  font-size: 1rem;
+  background-color: rgba(70, 78, 78, 0.475);
+}
+
+.myskill{
+  height: 100px;
+  width:100px;
+  box-shadow: 10px 10px 10px blue;
+}
