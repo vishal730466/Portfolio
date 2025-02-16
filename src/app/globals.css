@@ -136,7 +136,7 @@ a {
   /* padding: 1%; */
 }
 
-.project .p1_description{
+.project .iot_project{
   height: 100%;
  /* min-width: 400px;*/
   width: 50%;
@@ -149,7 +149,7 @@ a {
   border: 2px solid;
   padding: 3%;
 }
-.project .p1_description div{
+.project .iot_project div{
   margin: 2% 0;
   width: 100%;
   display: flex;
@@ -165,7 +165,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
+  align-items: normal;
   /* border: 5px solid green; */
 }
 
@@ -215,20 +215,20 @@ li{
   width: 80%;
 }
 
-.mob_project1{
-  height: 200vh;
+.mob_project_page1{
+  height: 170vh;
   width: 100vw;
- /* background-color: red;*/
+  /* border: 2px solid red; */
 }
 
-.mob_project1 .game_dis{
+.mob_project_page1 .game_dis{
   padding: 5vw;
 }
 .mob_iot_project{
   border: 2px solid white;
   margin-top: 10vh;
   padding: 3%;
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
 }
 .mob_iot_project p{
@@ -239,6 +239,14 @@ li{
   align-items: center;
   border: 2px solid;
 }
+.mob_tic_tac_toe{
+  height: 40%;
+  border: 2px solid white;
+}
+.mob_tic_tac_toe iframe{
+  border: none;
+}
+
 
 .card{
   margin: 5vh;
@@ -273,4 +281,13 @@ li{
     height: 10%;
     width: 90%;
     margin: 5%;
+}
+.mob_iot_project .gallery{
+  height: 70%;
+  width: 100%;
+}
+.mob_iot_project .my_iot_p{
+  padding: 1%;
+  margin: 5%;
+  border: 2px blue;
 }
