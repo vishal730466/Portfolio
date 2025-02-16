@@ -164,6 +164,8 @@ a {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
   /* border: 5px solid green; */
 }
 
@@ -197,10 +199,11 @@ li{
   flex-direction: column;
 }
 
-/* .skill button{
-  width: 30%;
+.skill button{
+  width: 50%;
   height: 8%;
-} */
+  margin: 2% 25%;
+}
 
 .project3{
   height: 100vw;
@@ -217,11 +220,12 @@ li{
   width: 100vw;
  /* background-color: red;*/
 }
+
 .mob_project1 .game_dis{
   padding: 5vw;
 }
 .mob_iot_project{
-  border: 2px solid red;
+  border: 2px solid white;
   margin-top: 10vh;
   padding: 3%;
   height: 100vh;
@@ -249,4 +253,24 @@ li{
   height: 100px;
   width:100px;
   box-shadow: 10px 10px 10px blue;
+}
+
+.mob_skill{
+  width: 100vw;
+  
+  height: 30vh;
+  /* border: 2px solid red; */
+  padding: 1%;
+  /* rotate: 90deg; */
+}
+.mob_skill div{
+  
+  /* rotate: 90deg; */
+  /* height: 100%; */
+  /* width: 100%; */
+}
+.mob_skill button{
+    height: 10%;
+    width: 90%;
+    margin: 5%;
 }
