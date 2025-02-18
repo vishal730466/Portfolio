@@ -21,6 +21,7 @@ const Homepage = () => {
    if (width > 450) {
     return (
       <div className='myhomepage' onClick={handleScroll}> 
+        <Head><title>Portfolio </title></Head>
           <pre >
              Hi, My name is
              <p> Vishal Ingle</p> 
@@ -33,7 +34,7 @@ const Homepage = () => {
     )
    } else {
       return(<div className='myhomepage'>
-    
+        <Head><title>Portfolio </title></Head>
           <pre className='h_mob'>
              Hi, My name is
              <p> Vishal Ingle</p> 
