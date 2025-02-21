@@ -1,4 +1,5 @@
 "use client"
+import Link from 'next/link'
 import React, { useEffect,useRef,useState } from 'react'
 
 const Navbar = () => {
@@ -13,8 +14,8 @@ const Navbar = () => {
   if (width>400) {
     return (
       <div className='nav'>
-          <li>Home</li>
-          <li>About</li>
+      <Link href="/"><li>Home</li></Link>
+      <Link href="/Contact"><li>Contact</li></Link>
           <li>Skills</li>
           <li>Resume</li>
       </div>
@@ -22,8 +23,8 @@ const Navbar = () => {
   } else {
      return(<div>
         <div className='mob_nav'>
-          <li>Home</li>
-          <li>About</li>
+          <Link href="/"><li>Home</li></Link>
+          <Link href="/Contact"><li>Contact</li></Link>
           <li>Skills</li>
           <li>Resume</li>
       </div>

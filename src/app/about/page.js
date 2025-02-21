@@ -7,14 +7,12 @@ const About = () => {
          <div className='card'>
             <p>10th Standard</p>
             <p>SSC board </p>
-            <p> N.M.M.C. , Navi mumbai</p>
             <p>Percentage 78 </p>
          </div>
          <div className='card'>
             <p>12th Standard</p>
             <p>Commerce </p>
-            <p> K.B.P. college , Navi mumbai</p>
-            <p>Percentage  </p>
+            <p>Percentage  58</p>
          </div>
          <div className='card'>
             <p>Graduation</p>

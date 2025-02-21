@@ -80,7 +80,7 @@ a {
   border: 2px solid rgb(34, 208, 153);
 }
 .nav{
-  padding: 1vh;
+  padding: 2vh;
   height: 10vh;
   min-width: 400px;
   width: 100vw;
@@ -90,7 +90,7 @@ a {
   /* position: absolute; */
   /* right: 5vw; */
   list-style: none;
-  font-size: 3vw;
+  font-size: 2vw;
   font-weight: bold;
   /* border: 2px solid red;   */
   
