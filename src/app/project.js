@@ -19,7 +19,7 @@ const Project = () => {
     <div className='project'>
       <div className='project1'>
          <iframe src="https://tic-tac-toe-lime-two.vercel.app/" height="85%" width="100%" ></iframe>
-         <p>A two-player Tic-Tac-Toe game built with Next.js and hosted on Vercel. </p>
+         <p>A Tic-Tac-Toe game built with Next.js and hosted on Vercel. </p>
          
       </div>
       <div className='iot_project'>
@@ -38,7 +38,7 @@ const Project = () => {
         return(<div className='mob_project_page1'>
                  <div className='mob_tic_tac_toe'>
          <iframe src="https://tic-tac-toe-lime-two.vercel.app/" height="85%" width="100%" ></iframe>
-         <p className='game_dis'>A two-player Tic-Tac-Toe game built with Next.js and hosted on Vercel. </p>
+         <p className='game_dis'>A Tic-Tac-Toe game built with Next.js and hosted on Vercel. </p>
                  </div>
      
 
