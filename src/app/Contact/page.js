@@ -32,6 +32,7 @@ const Contact = () => {
                     // console.log(response)
                     console.log("Thank you ",response.result1.name);
                     alert("Thank you! Your message has been sent successfully ")
+                    setEmail("");setmessage(`Thank you ${name}`)
                 }else{
                     alert("Something went wrong , please try again later")
                 }
