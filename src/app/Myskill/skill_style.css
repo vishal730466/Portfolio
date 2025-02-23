@@ -1,0 +1,228 @@
+.skill_container{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+}
+.heading{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.box{  
+    font-size: 3vh;
+    font-weight: bold;
+    height: 60%;
+    width: 27%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: forestgreen;
+    border-radius: 20px;
+    border: 2px solid;
+}
+.box1{  
+    font-size: 3vh;
+    font-weight: bold;
+    height: 60%;
+    width: 27%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: forestgreen;
+    border-radius: 20px;
+    /* border: 2px solid; */
+}
+.progress_bars{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid blue; */
+}
+.html_bar{
+    /* margin: 3%; */
+    height: 15%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid; */
+}
+.bar_background{
+    height: 40%;
+    width: 85%;
+    border-radius: 20px;
+    background-color: aliceblue;
+    border: 2px solid;
+}
+.bar{
+    height: 100%;
+    width: 0%;
+    background-color: rgb(46, 114, 248);
+    border-radius: 20px;
+}
+.html_bar_fill{
+    animation: html 1s linear forwards;
+}
+.css_bar_fill{
+    animation: css 1s linear forwards;
+}
+.javascript_bar_fill{
+    animation: javascript 1s linear forwards;
+}
+.mongodb_fill_bar{
+    animation: mongodb 1s linear forwards;
+}
+.nextjs_fill_bar{
+    animation: nextjs 1s linear forwards;
+}
+.react_fill_bar{
+    animation: react 1s linear forwards;
+}
+.vercel_fill_bar{
+    animation: vercel 1s linear forwards;
+}
+.github_fill_bar{
+    animation: github 1s linear forwards;
+}
+.git_fill_bar{
+    animation: git 1s linear forwards;
+}
+@keyframes html{
+    0%{width: 0;}
+    100%{width: 90%;}
+}
+@keyframes css{
+    0%{width: 0;}
+    100%{width: 80%;}
+}
+@keyframes javascript{
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+@keyframes mongodb{
+    0%{width: 0;}
+    100%{width: 60%;}
+}
+@keyframes nextjs{
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+@keyframes react{
+    0%{width: 0;}
+    100%{width: 50%;}
+}
+@keyframes vercel{
+    0%{width: 0;}
+    100%{width: 30%;}
+}
+@keyframes github{
+    0%{width: 0;}
+    100%{width: 97%;}
+}
+@keyframes git{
+    0%{width: 0;}
+    100%{width: 57%;}
+}
+.invisible{
+    display: none;
+}
+/* ------------------------------------------ */
+.mob_skill{
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid; */
+}
+.mob_heading{
+    height: 15%;
+    width: 97%;
+    background-color: rgba(243, 244, 242, 0.237);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    align-items: center;
+    border: 2px solid;
+}
+.mob_square{
+    height: 70%;
+    width: 30%;
+    border-radius: 20px;
+    background-color: forestgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+}
+.square1{
+    height: 70%;
+    width: 30%;
+    border-radius: 20px;
+    background-color: forestgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mob_bottom-container{
+    height: 70%;
+    width: 90%;
+    /* border: 2px solid; */
+}
+.mob_progress{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid; */
+}
+.mob_bar_con{
+    height: 8%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid; */
+}
+.mob_bar_background{
+    height: 70%;
+    width: 80%;
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+.mob_bar{
+    height: 100%;
+    width: 0%;
+    border-radius: 20px;
+    background-color: blueviolet;
+}
+.mob_html_fill{
+    animation: html 1s linear forwards;
+}
+.mob_css_fill{
+    animation: css 1s linear forwards;
+}
+.mob_javascript_fill{
+    animation: javascript 1s linear forwards;
+}
+.mob_mongodb_fill{
+    animation: mongodb 1s linear forwards;
+}
+.mob_nextjs_fill{
+    animation: nextjs 1s linear forwards;
+}
+.mob_react_fill{
+    animation: react 1s linear forwards;
+}

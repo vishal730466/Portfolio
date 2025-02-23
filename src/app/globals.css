@@ -81,7 +81,7 @@ a {
 }
 .nav{
   padding: 2vh;
-  height: 10vh;
+  height: 7vh;
   min-width: 400px;
   width: 100vw;
   display: flex;
@@ -179,7 +179,7 @@ a {
   justify-content: space-between;
   align-items: center;
   width: 100vw;
-  height: 10vh;
+  height: 7vh;
   font-weight: bold;
   color: aqua;
   

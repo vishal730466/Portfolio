@@ -16,8 +16,8 @@ const Navbar = () => {
       <div className='nav'>
       <Link href="/"><li>Home</li></Link>
       <Link href="/Contact"><li>Contact</li></Link>
-          <li>Skills</li>
-          <li>Resume</li>
+         <Link href="/Myskill">  <li>Skills</li> </Link>
+          {/* <li>Resume</li> */}
       </div>
     )
   } else {
@@ -25,8 +25,8 @@ const Navbar = () => {
         <div className='mob_nav'>
           <Link href="/"><li>Home</li></Link>
           <Link href="/Contact"><li>Contact</li></Link>
-          <li>Skills</li>
-          <li>Resume</li>
+          <Link href="/Myskill"><li>Skills</li></Link>
+          {/* <li>Resume</li> */}
       </div>
      </div>
 
