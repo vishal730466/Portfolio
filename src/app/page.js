@@ -3,6 +3,7 @@ import Homepage from "@/app/home";
 import Project from "./project";
 import Project2 from "./project2";
 import Skill from "./skill";
+import Contact from "./Contact/page";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
        <Homepage/>
        <Skill/>
        <Project/>
-       {/* <Project2/> */}
+       <Contact/>
     </div>
   );
 }

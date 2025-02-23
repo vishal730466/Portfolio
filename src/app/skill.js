@@ -17,7 +17,7 @@ const Skill = () => {
 
     if (width >450) {
       return (
-        <div className='project'>
+        <div className='threedskill'>
             <div className='skill'>
             <iframe key={val} src='https://3d-web-gilt.vercel.app/' height="90%" width="100%"></iframe>
             <button onClick={reload}>Reload</button>

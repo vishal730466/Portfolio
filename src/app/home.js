@@ -5,22 +5,24 @@ import React, { useEffect,useRef,useState } from 'react'
 
 const Homepage = () => {
   const [width,setwidth]=useState(1000)
-  const conRef = useRef("")
+  // const conRef = useRef("")
 
-  let  handleScroll =()=>{
-    window.scrollBy({ top: 633 , behavior: "smooth" });
-  }
+  // let  handleScroll =()=>{
+  //   window.scrollBy({ top: 633 , behavior: "smooth" });
+  // }
   
   useEffect(()=>{
     if(window){
-     
       setwidth(window.innerWidth)
     }
   },[width])
-
+    if(width==1000){
+      return(<div className='loading'><h1>Loading</h1></div>
+      )
+    }
    if (width > 450) {
     return (
-      <div className='myhomepage' onClick={handleScroll}> 
+      <div className='myhomepage' > 
         <Head><title>Portfolio </title></Head>
           <pre >
              Hi, My name is

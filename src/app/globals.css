@@ -50,12 +50,12 @@ a {
   align-items: center;
   color: rgb(247, 248, 248);
   /* border: 2px solid blue; */
-  height: 90vh;
-  width: 99vw;
+  height: 93vh;
+  width: 100vw;
   font-size: 5vw;
   font-weight: bold;
   margin-right: 2vw;
-  background-color: rgba(27, 28, 28, 0.484);
+  background-color: black;
 }
 .myhomepage pre{
   min-width: 300px;
@@ -68,7 +68,6 @@ a {
   min-width: 250px;
   min-height: 250px;
   display: flex;
-  
   justify-content: center;
   /* border: 2px solid; */
 }
@@ -94,7 +93,7 @@ a {
   font-weight: bold;
   /* border: 2px solid red;   */
   
-  background-color: rgba(27, 28, 28, 0.484);
+  background-color: black;
 }
 
 .nav li{
@@ -115,13 +114,26 @@ a {
  /* flex-wrap: wrap;*/
   align-items: center;
   justify-content: center;
+  background-color: black;
+}
+.threedskill{
+  height: 100vh;
+  width: 100vw;
+  border: 2px solid;
+  display: flex;
+ /* flex-wrap: wrap;*/
+  align-items: center;
+  justify-content: center;
+  background-color: black;
 }
 
 .project .project1{
+  color: white;
   height: 100%;
+  background-color: black;
  /* min-width: 250px;*/
   width: 50%;
-  /* border: 2px solid rgb(202, 13, 13); */
+  /* border: 2px solid ; */
   padding: 3%;
 }
 .project .project1 p{
@@ -170,6 +182,7 @@ a {
 }
 
 .h_mob{
+
   font-size: 5vh;
 }
 
@@ -182,8 +195,7 @@ a {
   height: 7vh;
   font-weight: bold;
   color: aqua;
-  
-  background-color: rgba(27, 28, 28, 0.484);
+  background-color: black;
 }
 
 li{
@@ -218,6 +230,7 @@ li{
 .mob_project_page1{
   height: 170vh;
   width: 100vw;
+  background-color: black;
   /* border: 2px solid red; */
 }
 
@@ -225,6 +238,7 @@ li{
   padding: 5vw;
 }
 .mob_iot_project{
+  color: white;
   border: 2px solid white;
   margin-top: 10vh;
   padding: 3%;
@@ -241,6 +255,7 @@ li{
 }
 .mob_tic_tac_toe{
   height: 40%;
+  color: white;
   border: 2px solid white;
 }
 .mob_tic_tac_toe iframe{
@@ -265,11 +280,10 @@ li{
 
 .mob_skill{
   width: 100vw;
-  
   height: 30vh;
   /* border: 2px solid red; */
   padding: 1%;
-  /* rotate: 90deg; */
+  background-color: black;
 }
 
 .mob_skill button{
@@ -285,4 +299,14 @@ li{
   padding: 1%;
   margin: 5%;
   border: 2px blue;
+}
+.loading{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  background-color: black;
 }

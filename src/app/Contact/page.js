@@ -32,7 +32,7 @@ const Contact = () => {
                     // console.log(response)
                     console.log("Thank you ",response.result1.name);
                     alert("Thank you! Your message has been sent successfully ")
-                    setEmail("");setmessage(`Thank you ${name}`)
+                    setEmail("");setmessage(`Thank you ${name}`);setname("")
                 }else{
                     alert("Something went wrong , please try again later")
                 }
@@ -53,7 +53,7 @@ const Contact = () => {
                 <div className='message_container'>
                     <input className='name' type='text' placeholder='Enter name' value={name} onChange={((e) => setname(e.target.value))}></input>
                     <input className='name' type='text' placeholder='Enter Email' value={Email} onChange={(e) => setEmail(e.target.value)}></input>
-                    <input className='message' type='text' placeholder='Enter message' value={message} onChange={(e) => setmessage(e.target.value)}></input>
+                    <textarea className='message' type='text' placeholder='Enter message' value={message} onChange={(e) => setmessage(e.target.value)}></textarea>
                     <button className='btn' onClick={submit}>Send</button>
                 </div>
                 <div className='icons'>
@@ -68,13 +68,13 @@ const Contact = () => {
             <div className='mob_message_container'>
                 <input className='mob_name' type='text' placeholder='Enter name' value={name} onChange={((e) => setname(e.target.value))}></input>
                 <input className='mob_name' type='text' placeholder='Enter Email' value={Email} onChange={(e) => setEmail(e.target.value)}></input>
-                <input className='mob_message' type='text' placeholder='Enter message' value={message} onChange={(e) => setmessage(e.target.value)}></input>
+                <textarea className='mob_message' type='text' placeholder='Enter message' value={message} onChange={(e) => setmessage(e.target.value)}></textarea>
                 <button className='mob_btn' onClick={submit}>Send</button>
             </div>
             <div className='mob_icons'>
-                <a href='tel:+917304669130'> <FaPhone style={{ fontSize: "10vw" }} /> </a>
-                <a href='mailto:vishalingle98765@gmail.com'>   <MdEmail style={{ fontSize: "10vw" }} />    </a>
-                <a target='_blank' href='https://www.linkedin.com/in/vishal-ingle-298921335/ '> <TfiLinkedin style={{ fontSize: "10vw" }} /> </a>
+                <a href='tel:+917304669130'> <FaPhone style={{ fontSize: "10vw" , color:"white" }} /> </a>
+                <a href='mailto:vishalingle98765@gmail.com'>   <MdEmail style={{ fontSize: "10vw", color:"white" }} />    </a>
+                <a target='_blank' href='https://www.linkedin.com/in/vishal-ingle-298921335/ '> <TfiLinkedin style={{ fontSize: "10vw", color:"white" }} /> </a>
             </div>
         </div>
     }

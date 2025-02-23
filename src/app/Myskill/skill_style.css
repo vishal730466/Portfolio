@@ -1,9 +1,11 @@
 .skill_container{
-    height: 90vh;
+    background-color: black;
+    height: 93vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
-    border: 2px solid;
+    font-size: 4vh;
+    /* border: 2px solid; */
 }
 .heading{
     height: 20%;
