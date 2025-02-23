@@ -28,8 +28,9 @@ const Contact = () => {
                 })
                let response = await result.json()
                 // alert(response)
-                if(response.result._id){
-                    console.log("Thank you ",response.result.name);
+                if(response){
+                    // console.log(response)
+                    console.log("Thank you ",response.result1.name);
                     alert("Thank you! Your message has been sent successfully ")
                 }else{
                     alert("Something went wrong , please try again later")

@@ -11,9 +11,9 @@ export async function POST(req){
         const {name , email , message} = payload;
     
         let result = new user_schema({name,email,message})
-        let result1 = result.save();
+        let result1 = await result.save();
     
-        return NextResponse.json({result})
+        return NextResponse.json({result1})
         
     } catch (error) {
         console.log(error)
