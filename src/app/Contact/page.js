@@ -17,6 +17,32 @@ const Contact = () => {
         }
     }, [width])
 
+    const submit = async()=>{
+        if (!name || !Email) {
+            alert("Plese enter name and email")
+        } else {
+            if(Email.includes("@") && Email.includes("gmail")){
+                let result = await fetch("/api/contact",{
+                    method:"POST",
+                    body:JSON.stringify({name, Email, message})
+                })
+               let response = await result.json()
+                // alert(response)
+                if(response.result._id){
+                    console.log("Thank you ",response.result.name);
+                    alert("Thank you! Your message has been sent successfully ")
+                }else{
+                    alert("Something went wrong , please try again later")
+                }
+            }else{
+                alert("Email not valid")
+            }
+            
+        }
+        
+
+    }
+
     if (width > 450) {
 
 
@@ -26,7 +52,7 @@ const Contact = () => {
                     <input className='name' type='text' placeholder='Enter name' value={name} onChange={((e) => setname(e.target.value))}></input>
                     <input className='name' type='text' placeholder='Enter Email' value={Email} onChange={(e) => setEmail(e.target.value)}></input>
                     <input className='message' type='text' placeholder='Enter message' value={message} onChange={(e) => setmessage(e.target.value)}></input>
-                    <button className='btn'>Send</button>
+                    <button className='btn' onClick={submit}>Send</button>
                 </div>
                 <div className='icons'>
                     <a href='tel:+917304669130'>  <FaPhone style={{ fontSize: "10vh" }} />  </a>
@@ -41,7 +67,7 @@ const Contact = () => {
                 <input className='mob_name' type='text' placeholder='Enter name' value={name} onChange={((e) => setname(e.target.value))}></input>
                 <input className='mob_name' type='text' placeholder='Enter Email' value={Email} onChange={(e) => setEmail(e.target.value)}></input>
                 <input className='mob_message' type='text' placeholder='Enter message' value={message} onChange={(e) => setmessage(e.target.value)}></input>
-                <button className='mob_btn'>Send</button>
+                <button className='mob_btn' onClick={submit}>Send</button>
             </div>
             <div className='mob_icons'>
                 <a href='tel:+917304669130'> <FaPhone style={{ fontSize: "10vw" }} /> </a>
