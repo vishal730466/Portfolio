@@ -121,7 +121,7 @@ const Skill = () => {
                         </div>
                     </div>
                     <div className='mob_bar_con'>
-                        React library
+                        React (library)
                         <div className='mob_bar_background'>
                             <div className='mob_react_fill mob_bar'> 
                             </div>
