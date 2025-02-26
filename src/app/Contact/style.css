@@ -71,12 +71,13 @@
 }
 
 .message {
+    color: white;
     background-color: black;
     font-size: 3vh;
     height: 30%;
     width: 80%;
     margin: 2%;
-    border: 2px solid;
+    border: 2px solid white;
 }
 
 .mob_message {
