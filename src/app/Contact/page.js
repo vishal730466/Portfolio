@@ -57,9 +57,9 @@ const Contact = () => {
                     <button className='btn' onClick={submit}>Send</button>
                 </div>
                 <div className='icons'>
-                    <a href='tel:+917304669130'>  <FaPhone style={{ fontSize: "10vh" }} />  </a>
-                    <a target='_blank' href='mailto:vishalingle98765@gmail.com' ><MdEmail style={{ fontSize: "10vh" }} /> </a>
-                    <a target='_blank' href='https://www.linkedin.com/in/vishal-ingle-298921335/ '> <TfiLinkedin style={{ fontSize: "10vh" }} /> </a>
+                    <a href='tel:+917304669130'>  <FaPhone style={{ fontSize: "10vh",color:"white" }} />  </a>
+                    <a target='_blank' href='mailto:vishalingle98765@gmail.com' ><MdEmail style={{ fontSize: "10vh",color:"white" }} /> </a>
+                    <a target='_blank' href='https://www.linkedin.com/in/vishal-ingle-298921335/ '> <TfiLinkedin style={{ fontSize: "10vh" ,color:"white"}} /> </a>
                 </div>
             </div>
         )
