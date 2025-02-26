@@ -16,6 +16,7 @@
     /* border: 2px solid red; */
 }
 .box{  
+    color: white;
     font-size: 3vh;
     font-weight: bold;
     height: 60%;
@@ -25,7 +26,7 @@
     align-items: center;
     background-color: forestgreen;
     border-radius: 20px;
-    border: 2px solid;
+    border: 2px solid white;
 }
 .box1{  
     font-size: 3vh;
@@ -50,6 +51,7 @@
 }
 .html_bar{
     /* margin: 3%; */
+    color: white;
     height: 15%;
     width: 70%;
     display: flex;
