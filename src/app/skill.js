@@ -28,7 +28,7 @@ const Skill = () => {
     } else {
       return<div className='mob_skill'>
           {/* <div> */}
-          <iframe key={val} src='https://3d-web-gilt.vercel.app/mob_searchboard' height="70%" width="100%" ></iframe>
+          <iframe key={val} src='https://3d-web-gilt.vercel.app/' height="70%" width="100%" ></iframe>
             <button onClick={reload}>Reload</button>
           {/* </div> */}
 
