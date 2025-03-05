@@ -4,12 +4,14 @@ import Project from "./project";
 import Project2 from "./project2";
 import Skill from "./skill";
 import Contact from "./Contact/page";
+import Search from "./Threed/page";
 
 export default function Home() {
   return (
     <div >
        <Homepage/>
-       <Skill/>
+       {/* <Skill/> */}
+      <Search/>
        <Project/>
        <Contact/>
     </div>

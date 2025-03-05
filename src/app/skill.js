@@ -22,7 +22,6 @@ const Skill = () => {
             <iframe key={val} src='https://3d-web-gilt.vercel.app/' height="90%" width="100%"></iframe>
             <button onClick={reload}>Reload</button>
             </div>
-    
         </div>
       )    
     } else {
