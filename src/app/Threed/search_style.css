@@ -65,5 +65,6 @@
 .mob_mycanvas{
     border: 2px solid red;
     height: 35vh;
-    width: 100%;
+    width: 110%;
+    margin-left: -10%;
 }
