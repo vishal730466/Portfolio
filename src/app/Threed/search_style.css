@@ -24,12 +24,12 @@
 }
 
 .mob_monitor {
+    font-size: large;
     margin-top: 2%;
     margin-left: 20%;
     width: 60%;
     height: 25%;
     background: #222;
-    /* border: 20px solid #333; */
     border: 8px solid #545252;
     border-radius: 5px;
     position: relative;
@@ -63,8 +63,7 @@
     bottom: 18%;
 }
 .mob_mycanvas{
-    border: 2px solid red;
-    height: 35vh;
-    width: 110%;
-    margin-left: -10%;
+    /* border: 2px solid red; */
+    height: 55%;
+    width: 100%;
 }
