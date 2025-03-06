@@ -6,7 +6,7 @@
 }
 .mob_search_page{
     border: 2px solid;
-    height: 75vh;
+    height: 65vh;
     width: 100vw;
     background-color: #222;
 }
@@ -63,7 +63,7 @@
     bottom: 18%;
 }
 .mob_mycanvas{
-    /* border: 2px solid red; */
+    border: 2px solid red;
     height: 55%;
     width: 100%;
 }
