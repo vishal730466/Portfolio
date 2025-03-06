@@ -61,9 +61,10 @@
     height: 60%;
     position: relative;
     bottom: 18%;
+    
 }
 .mob_mycanvas{
     /* border: 2px solid red; */
-    height: 60%;
+    height: 40%;
     /* width: 100%; */
 }
