@@ -6,7 +6,7 @@
 }
 .mob_search_page{
     border: 2px solid;
-    height: 55vh;
+    height: 60vh;
     width: 100vw;
     background-color: #222;
 }
@@ -27,7 +27,7 @@
     /* font-size: 2vw; */
     margin-top: 2%;
     margin-left: 20%;
-    width: 60%;
+    width: 65%;
     height: 35%;
     background: #222;
     border: 8px solid #545252;
