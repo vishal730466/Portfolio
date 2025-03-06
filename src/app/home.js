@@ -16,6 +16,7 @@ const Homepage = () => {
       setwidth(window.innerWidth)
     }
   },[width])
+  
     if(width==1000){
       return(<div className='loading'><h1>Loading</h1></div>
       )

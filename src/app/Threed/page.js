@@ -5,8 +5,8 @@ import { Canvas } from '@react-three/fiber'
 
 import { OrbitControls,Box, useGLTF ,useTexture  } from '@react-three/drei';
 import { Physics, RigidBody } from "@react-three/rapier";
-import React, { useState } from 'react'
-import { AmbientLight, DirectionalLight, Group } from 'three'
+import React, { useState,useEffect } from 'react'
+// import { AmbientLight, DirectionalLight, Group } from 'three'
 
 import "./search_style.css"
 // import { useRouter } from 'next/router';
@@ -15,10 +15,16 @@ const Search = () => {
   const [val , setval]=useState(1)
   const router=useRouter();
 
+  
+  const [width, setwidth] = useState(1000)
+  useEffect(() => {
+      if (window) {
+          setwidth(window.innerWidth)
+      }
+  }, [width])
+
   const transfer=()=>{
     if (val==2) {
-
-    // window.location.href = "https://iamvishal.in/Contact";
       router.push("/Contact")
     } else if(val==3) {
       router.push("/Myskill")
@@ -87,7 +93,10 @@ const Search = () => {
 
       </RigidBody>
     }
-
+    if (width==1000) {
+        return(<h1>loading</h1>)
+    } else if(width>450) {
+        
   return (
     <div className='search_page'>
       
@@ -118,6 +127,39 @@ const Search = () => {
         </div>
 
   )
+    }else{
+         
+  return (
+    <div className='search_page'>
+      
+    <div className="mob_monitor">
+        <div className="screen">
+          <div className={`search_heading ${val==1?"search_active":""}`}>Home</div>
+          <div className={`search_heading ${val==2?"search_active":""}`}>Contact</div>
+          <div className={`search_heading ${val==3?"search_active":""}`}>Skills</div>
+          {/* {val} */}
+        </div>
+    </div>
+    <div className='mob_mycanvas'>
+        <Canvas  camera={{ position: [0, 6, 13], fov: 45 }}>
+            <Physics>
+    <OrbitControls enableZoom={false} enableRotate={true}  minPolarAngle={Math.PI / 2.7} 
+    maxPolarAngle={Math.PI / 2.7}  minAzimuthAngle={-0.2}  maxAzimuthAngle={0.2 }/>{/* left */}
+    
+               <UP/>
+               <Enterbtn />
+            <Down/>
+            <Box/>
+            <ambientLight intensity={2} color={"white"}/>
+            <directionalLight position={[0,5,12]} intensity={.5}/>
+            </Physics>
+        </Canvas> 
+        </div>
+        {val}
+        </div>
+
+  )
+    }
 }
 
 export default Search
