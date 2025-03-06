@@ -4,6 +4,12 @@
     width: 100vw;
     background-color: #222;
 }
+.mob_search_page{
+    border: 2px solid;
+    height: 75vh;
+    width: 100vw;
+    background-color: #222;
+}
 .monitor {
     margin-top: 2%;
     margin-left: 30%;
@@ -20,8 +26,8 @@
 .mob_monitor {
     margin-top: 2%;
     margin-left: 30%;
-    width: 50%;
-    height: 35%;
+    width: 60%;
+    height: 25%;
     background: #222;
     /* border: 20px solid #333; */
     border: 8px solid #545252;
@@ -57,6 +63,7 @@
     bottom: 18%;
 }
 .mob_mycanvas{
+    border: 2px solid red;
     height: 50vh;
     width: 100%;
 }

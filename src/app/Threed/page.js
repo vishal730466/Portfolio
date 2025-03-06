@@ -123,14 +123,14 @@ const Search = () => {
             </Physics>
         </Canvas> 
         </div>
-        {val}
+        {/* {val} */}
         </div>
 
   )
     }else{
          
   return (
-    <div className='search_page'>
+    <div className='mob_search_page'>
       
     <div className="mob_monitor">
         <div className="screen">
@@ -155,7 +155,7 @@ const Search = () => {
             </Physics>
         </Canvas> 
         </div>
-        {val}
+        {/* {val} */}
         </div>
 
   )
