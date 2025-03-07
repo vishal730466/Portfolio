@@ -116,16 +116,16 @@ a {
   justify-content: center;
   background-color: black;
 }
+/* 
 .threedskill{
   height: 100vh;
   width: 100vw;
-  /* border: 2px solid red; */
+  border: 2px solid red;
   display: flex;
- /* flex-wrap: wrap;*/
   align-items: center;
   justify-content: center;
   background-color: black;
-}
+} */
 
 .project .project1{
   color: white;
@@ -280,15 +280,15 @@ li{
   width:100px;
   box-shadow: 10px 10px 10px blue;
 }
-
+/* 
 .mob_skill{
   color: white;
   width: 100vw;
   height: 60vh;
-  /* border: 2px solid red; */
+  border: 2px solid red;
   padding: 1%;
   background-color: black;
-}
+} */
 
 .mob_skill button{
     height: 10%;
