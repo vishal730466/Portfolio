@@ -14,7 +14,6 @@ import "./search_style.css"
 const Search = () => {
   const [val , setval]=useState(1)
   const router=useRouter();
-
   
   const [width, setwidth] = useState(1000)
   useEffect(() => {

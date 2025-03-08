@@ -147,6 +147,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-color: black;
     /* border: 2px solid; */
 }
 .mob_heading{
@@ -214,6 +215,7 @@
     background-color: aliceblue;
 }
 .mob_bar{
+    color: white;
     height: 100%;
     width: 0%;
     border-radius: 20px;
