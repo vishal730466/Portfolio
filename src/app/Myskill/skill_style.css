@@ -185,6 +185,7 @@
     align-items: center;
 }
 .mob_bottom-container{
+    font-weight: bold;
     height: 70%;
     width: 90%;
     /* border: 2px solid; */
