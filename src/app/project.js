@@ -16,7 +16,7 @@ const Project = () => {
   if (width>450) {
     
   return (
-    <div className='project'>
+    <div className='project' style={{color:"white"}}>
       <div className='project1'>
          <iframe src="https://tic-tac-toe-lime-two.vercel.app/" height="85%" width="100%" ></iframe>
          <p>A Tic-Tac-Toe game built with Next.js and hosted on Vercel. </p>
